@@ -1,1 +1,0 @@
-# Avikna-S-D
