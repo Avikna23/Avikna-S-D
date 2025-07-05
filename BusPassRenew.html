@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Pass Renewal</title>
+    <link rel="stylesheet" href="BusPassRenew.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Renew your Bus Pass</h2>
+        
+        <label for="pass-number">Pass number :</label>
+        <input type="text" id="pass-number" placeholder="Enter your ID number">
+        <button class="btn">ENTER</button>
+
+        <p>View your pass:</p>
+        <div class="view-pass"></div>
+
+        <h3>Update pass details:</h3>
+        <label for="start-point">Start point :</label>
+        <select id="start-point">
+            <option>--Choose your source point--</option>
+        </select>
+
+        <label for="end-point">End point :</label>
+        <select id="end-point">
+            <option>--Choose your destination point--</option>
+        </select>
+
+        <button class="btn">SAVE CHANGES</button>
+
+        <p><strong>Cost :</strong> $10</p>
+        <p>Verification is required to proceed with the payment</p>
+        <button class="btn">Verify Now!!!</button>
+
+        <h3>Payment Gateway:</h3>
+        <select>
+            <option>--Choose your way of payment--</option>
+        </select>
+
+        <h3>Proceed Payment:</h3>
+        <div class="proceed-payment"></div>
+
+        <button class="btn">SAVE A COPY</button>
+        <button class="btn">PRINT</button>
+    </div>
+
+    <div class="auth-container">
+        <h3>AUTHENTICATION</h3>
+        <label>Email ID :</label>
+        <input type="text">
+        
+        <label>Password :</label>
+        <input type="password">
+        
+        <label>Aadhar no. :</label>
+        <input type="text">
+        
+        <button class="btn">VERIFY</button>
+    </div>
+</body>
+</html>
